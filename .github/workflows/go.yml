@@ -1,0 +1,13 @@
+name: its a Go Code
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+    Code:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Go Code
+          run: echo "Go Code"
